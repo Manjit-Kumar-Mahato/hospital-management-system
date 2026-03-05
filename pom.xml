@@ -43,11 +43,6 @@
 			<scope>test</scope>
 		</dependency>
 
-		<dependency>
-			<groupId>com.demo</groupId>
-			<artifactId>12-JSP-Directive-App</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
-		</dependency>
 	</dependencies>
 	<build>
 		<finalName>Hospital_System</finalName>
