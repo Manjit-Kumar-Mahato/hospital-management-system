@@ -1,34 +1,48 @@
 # Hospital Management System
 
-A web-based Hospital Management System built using:
-
-- Java (JSP & Servlets)
-- JDBC
-- MySQL
-- Bootstrap
-- Apache Tomcat
-- Eclipse IDE
+A web-based hospital management system built using Java (JSP/Servlet), MySQL and JDBC.
 
 ## Features
 
-Admin Panel
-- Manage doctors
-- Manage specialists
-- View appointments
+### Admin
+- Add Doctor
+- Add Specialist
+- View Appointments
 
-Doctor Panel
-- View patient appointments
-- Approve / reject appointments
+### Doctor
+- View appointments
+- Approve / Reject appointments
 - Edit profile
 
-User Panel
-- Register / Login
-- Book appointments
+### User
+- Register and login
+- Book appointment
 - View appointment history
 - Change password
 
-## Database
-MySQL
+## Technologies Used
 
-## Server
-Apache Tomcat 9
+- Java
+- JSP & Servlets
+- MySQL
+- JDBC
+- Bootstrap
+- Apache Tomcat
+
+## Database Setup
+
+1. Import `database/hospital_system.sql` into MySQL
+2. Run the project on Apache Tomcat
+
+## Project Structure
+
+```
+hospital-management-system
+│
+├── src
+├── database
+│   └── hospital_system.sql
+├── .gitignore
+├── README.md
+└── pom.xml
+```
